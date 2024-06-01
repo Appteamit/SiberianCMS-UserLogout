@@ -1,0 +1,24 @@
+<sb-section title="'<?php echo addslashes(__("Logout, Backoffice / Editor / App Users")); ?>'" button="button">
+
+	<div class="alert alert-info ng-binding ng-scope"><?php echo addslashes(__("DANGER - The following tool will cause all users to log out of your platform")); ?></div>
+
+         <div class="form-group">
+
+		<div class="col-md-12">
+
+			<button type="button" class="btn btn-primary left" ng-click="saveBackoffice()"><?php echo __("Logout All User"); ?></button>
+
+			<sb-loader is_visible="form_loader_help_is_visible" type="'inner_content'" size="'small'" animation="'no'" class="form_loader"></sb-loader>
+
+			<div class="clear"></div>
+
+		</div>
+
+	</div>
+
+</sb-section>
+
+
+
+
+

@@ -1,0 +1,12 @@
+{
+  "name": "UserLogout",
+  "decription": "This tool will log out all users",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "system": {
+      "type": "SAE",
+      "version": "4.13.13"
+    }
+  }
+}
